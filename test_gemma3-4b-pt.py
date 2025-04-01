@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 model_id = "google/gemma-3-4b-pt"
-hf_token = "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"  # 🔐 Hugging Face 토큰
+hf_token = "hf_..."  # 🔐 Hugging Face 토큰
 
 # ✅ 토크나이저 로드
 tokenizer = AutoTokenizer.from_pretrained(

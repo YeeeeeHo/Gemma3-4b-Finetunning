@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # ✅ 모델 경로 (파인튜닝 + 병합된 LoRA 모델)
-MODEL_PATH = r"D:\gemma-3-4b-it"
+MODEL_PATH = r"D:/gemma_finetunnig/merged-gemma3-4b"
 
 # ✅ 디바이스 설정
 device = "cuda" if torch.cuda.is_available() else "cpu"
